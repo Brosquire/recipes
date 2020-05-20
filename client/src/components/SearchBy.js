@@ -1,5 +1,5 @@
 import axios from "axios";
-let secret = process.env.REACT_APP_RECIPE_SECRET;
+let secret = process.env.RECIPE_SECRET;
 
 export const searchByCuisine = async (cuisineType) => {
   let query = `https://api.spoonacular.com/recipes/search?apiKey=${secret}&cuisine=${cuisineType}&number=5`;
