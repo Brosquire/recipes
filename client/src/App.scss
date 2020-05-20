@@ -82,6 +82,7 @@ body {
     list-style: none;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
     @media only screen and(max-width: $bp-medium) {
       font-size: 2rem;
       padding: 0;
@@ -131,6 +132,7 @@ body {
     width: 10%;
     height: 2rem;
     margin: 2rem auto;
+    cursor: pointer;
 
     background-color: var(--color-grey-light);
     color: #000;

@@ -1,7 +1,5 @@
 import React from "react";
 
-let secret = process.env.REACT_APP_RECIPE_SECRET;
-
 const SearchResults = ({ recipes }) => {
   return recipes.length > 0 ? (
     recipes.map((result) => (
